@@ -1,0 +1,71 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif; /* Шрифт для всего документа */
+    margin: 0; /* Убираем отступы по умолчанию */
+    padding: 0; /* Убираем внутренние отступы по умолчанию */
+    background-color: #f4f4f4; /* Цвет фона страницы */
+}
+
+header {
+    background: #333; /* Темный фон для заголовка */
+    color: #fff; /* Белый цвет текста */
+    padding: 10px 0; /* Отступы сверху и снизу */
+    text-align: center; /* Центрируем текст */
+}
+
+nav {
+    margin: 10px 0; /* Отступы для навигации */
+}
+
+nav a {
+    color: #fff; /* Цвет ссылок */
+    margin: 0 15px; /* Отступы между ссылками */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+main {
+    padding: 20px; /* Внутренние отступы для основного контента */
+}
+
+h1, h2 {
+    color: #333; /* Цвет заголовков */
+}
+
+form {
+    background: #fff; /* Белый фон для формы */
+    padding: 20px; /* Внутренние отступы для формы */
+    border-radius: 5px; /* Закругленные углы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для формы */
+}
+
+label {
+    display: block; /* Отображаем метки как блочные элементы */
+    margin: 10px 0 5px; /* Отступы для меток */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Ширина полей ввода на всю ширину родителя */
+    padding: 10px; /* Внутренние отступы для полей ввода */
+    border: 1px solid #ccc; /* Серый бордер */
+    border-radius: 4px; /* Закругленные углы */
+}
+
+input[type="submit"] {
+    background: #5cb85c; /* Зеленый фон для кнопки */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем бордер */
+    padding: 10px 15px; /* Внутренние отступы для кнопки */
+    border-radius: 4px; /* Закругленные углы */
+    cursor: pointer; /* Курсор в виде указателя при наведении */
+}
+
+input[type="submit"]:hover {
+    background: #4cae4c; /* Темнее при наведении */
+}
